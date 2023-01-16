@@ -1,51 +1,74 @@
-ul.wrapper>li {
-    list-style-type: none;
-    display: inline;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
-    font-weight: 350;
-    color: #1b1a1a;
-    padding: 2px;
-    position: relative;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 24px;
-  }
-.mirko {
-    right: 63em;
-  }
-header {
+/* Declaring some color variables for easier repetititve use and better organization */
+
+:root {
+  --primary-color-darkblue: #213341; /* main or primary color*/
+  --secondary-color-lightblue: #009CB3; /* secondary color*/
+}
+
+/* Applying same font family for the whole website. */
+body {
+  padding: .6rem; /* here rem has the advantage over em, because they are easier to track and are relative to the browser font size, which is mostly 16px*/
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--primary-color-darkblue); /* here the variable is being reused*/
+}
+
+.header__main {
+    display: flex;
     justify-content: space-between;
-    padding-top: 1em;
-    margin-right: 4em;
     text-align: right;
   }
-.logo {
-    position: absolute;
-    width: 35px;
-    height: 30px;
-    left: +100px;
-}
-.heroimg {
-    position: relative;
-    width: 40%;
-    height: 30%;
-    left: 2.4cm;
-    top: 3cm;
-}
-.herowrapper {
+
+.header__elements {
   display: flex;
 }
+
+.header__elements-logo {
+    width: 2.2rem;
+    height: 1.8rem;
+    padding: 1.5rem 1.2rem 0 0;
+}
+
+.header__elements-name {
+  font-size: 1.5rem;
+}
+
+.navigation {
+  list-style-type: none;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.navigation__item {
+padding-right: .6rem;
+}
+
 .hero {
-  position: relative;
-  top: 2cm;
-  left: 5cm;
-  color: rgb(243, 95, 50);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 80px;
-  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__image {
+  width: 50vw;
+  height: auto;
+}
+
+.hero__text {
+  text-align: center;
+  padding-left: 3.1rem;
+}
+
+.accent {
+  color: var(--secondary-color-lightblue);
+}
+
+/* Making website responsive implementing mobile first display*/
+@media only screen and (max-width: 390px) {
+  .hero__text,
+  h1 {
+    font-size: 1rem;
+    padding-left: .5rem;
+  }
 }
 .hero-quote {
   color: #1b1a1a;
