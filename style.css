@@ -20,42 +20,56 @@ body {
 
 .header__elements {
   display: flex;
+  position: relative;
+  left: 4rem;
 }
 
 .header__elements-logo {
-    width: 2.2rem;
-    height: 1.8rem;
+    width: 3rem;
+    height: 2.6rem;
     padding: 1.5rem 1.2rem 0 0;
 }
 
 .header__elements-name {
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .navigation {
   list-style-type: none;
   display: flex;
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .navigation__item {
-padding-right: .6rem;
+padding-right: 3rem;
+font-weight: 400;
 }
 
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4rem;
 }
 
 .hero__image {
   width: 50vw;
   height: auto;
+
 }
 
 .hero__text {
-  text-align: center;
+  text-align: left;
   padding-left: 3.1rem;
+  font-size: 3rem;
+}
+
+.quote__text {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.8vw;
 }
 
 .accent {
@@ -73,7 +87,36 @@ padding-right: .6rem;
 .hero-quote {
   color: #1b1a1a;
   font-size: 40px;
-  bottom: 5cm;
   font-style: italic;
   font-weight: 300;
+}
+
+.wrapper__work {
+  padding: 3rem;
+}
+
+.about__work h4 {
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.about__work h2 {
+  color: #009CB3;
+  position: relative;
+  font-size: 10vw;
+  margin-left: 6vw;
+  letter-spacing: 1rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+}
+
+.about__work__quote {
+  font-weight: 300;
+  font-size: 2vw;
+  font-style: italic;
+}
+.about__work__paragraph {
+  font-size: 1.3vw;
+  font-weight: 400;
 }
