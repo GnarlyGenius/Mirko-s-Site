@@ -116,7 +116,14 @@ font-weight: 400;
   font-size: 2vw;
   font-style: italic;
 }
+
 .about__work__paragraph {
   font-size: 1.3vw;
   font-weight: 400;
+}
+
+.work__image {
+  position: relative;
+  left: 73rem;
+  bottom: 51rem;
 }
