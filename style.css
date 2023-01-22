@@ -1,4 +1,4 @@
-/* Declaring some color variables for easier repetititve use and better organization */
+
 
 :root {
   --primary-color-darkblue: #213341; /* main or primary color*/
@@ -7,7 +7,7 @@
 
 /* Applying same font family for the whole website. */
 body {
-  padding: .6rem; /* here rem has the advantage over em, because they are easier to track and are relative to the browser font size, which is mostly 16px*/
+  padding: .6rem; 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--primary-color-darkblue); /* here the variable is being reused*/
 }
@@ -76,7 +76,6 @@ font-weight: 400;
   color: var(--secondary-color-lightblue);
 }
 
-/* Making website responsive implementing mobile first display*/
 @media only screen and (max-width: 390px) {
   .hero__text,
   h1 {
@@ -105,7 +104,7 @@ font-weight: 400;
   position: relative;
   font-size: 10vw;
   margin-left: 6vw;
-  letter-spacing: 1rem;
+  letter-spacing: 0.5rem;
   margin-top: 2rem;
   font-weight: 700;
   margin-bottom: 3.5rem;
@@ -126,4 +125,25 @@ font-weight: 400;
   position: relative;
   left: 73rem;
   bottom: 51rem;
+}
+
+.about__experience h4 {
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.wrapper__experience h2 {
+  letter-spacing: 0rem;
+}
+
+.experience__text {
+  font-size: 1.3vw;
+  font-weight: 400;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  font-weight: 500;
 }
