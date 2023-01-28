@@ -1,15 +1,14 @@
 
 
 :root {
-  --primary-color-darkblue: #213341; /* main or primary color*/
-  --secondary-color-lightblue: #009CB3; /* secondary color*/
+  --primary-color-darkblue: #213341; 
+  --secondary-color-lightblue: #009CB3;
 }
 
-/* Applying same font family for the whole website. */
 body {
   padding: .6rem; 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--primary-color-darkblue); /* here the variable is being reused*/
+  color: var(--primary-color-darkblue);
 }
 
 .header__main {
@@ -40,13 +39,82 @@ body {
   display: flex;
   font-size: 1.5rem;
   font-weight: 400;
+  padding-right: 4rem;
 }
 
 .navigation__item {
 padding-right: 3rem;
-font-weight: 400;
 }
+.navigation__item1 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  top: 50%;
+  left: 50%;
+  background-image: linear-gradient(#78e9fa, #78e9fa);
+  background-size: 100% 0px;
+  background-repeat: no-repeat;
+  background-position: 40% 0%;
+  transition: background-size .7s, background-position .5s ease-in-out;
+  }
+  .navigation__item1:hover {
+    background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+  }
 
+.navigation__item2 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    top: 50%;
+    left: 50%;
+    background-image: linear-gradient(#78e9fa, #78e9fa);
+    background-size: 100% 0px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    transition: background-size .7s, background-position .5s ease-in-out;
+    }
+
+  .navigation__item2:hover {
+      background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out;
+    }
+
+.navigation__item3 {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      top: 50%;
+      left: 50%;
+      background-image: linear-gradient(#78e9fa, #78e9fa);
+      background-size: 100% 0px;
+      background-repeat: no-repeat;
+      background-position: 100% 0%;
+      transition: background-size .7s, background-position .5s ease-in-out;
+      }
+  
+      .navigation__item3:hover {
+        background-size: 100% 100%;
+      background-position: 0% 100%;
+      transition: background-position .7s, background-size .5s ease-in-out;
+      }
+.navigation__item4 {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        top: 50%;
+        left: 50%;
+        background-image: linear-gradient(#78e9fa, #78e9fa);
+        background-size: 100% 0px;
+        background-repeat: no-repeat;
+        background-position: 100% 0%;
+        transition: background-size .7s, background-position .5s ease-in-out;
+        }
+    
+        .navigation__item4:hover {
+          background-size: 100% 100%;
+        background-position: 0% 100%;
+        transition: background-position .7s, background-size .5s ease-in-out;
+        }    
+  
 .hero {
   display: flex;
   justify-content: center;
@@ -57,19 +125,25 @@ font-weight: 400;
 .hero__image {
   width: 50vw;
   height: auto;
-
 }
 
 .hero__text {
   text-align: left;
   padding-left: 3.1rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  padding-bottom: 4rem;
+}
+
+.hero__text h2 {
+  text-align: left;
+  font-size: 2vw;
+  font-weight: 300;
 }
 
 .quote__text {
   font-style: italic;
   font-weight: 300;
-  font-size: 1.8vw;
+  font-size: 1.8vh;
 }
 
 .accent {
@@ -91,7 +165,8 @@ font-weight: 400;
 }
 
 .wrapper__work {
-  padding: 3rem;
+  padding: 4rem;
+  padding-bottom: 0rem;
 }
 
 .about__work h4 {
@@ -108,6 +183,11 @@ font-weight: 400;
   margin-top: 2rem;
   font-weight: 700;
   margin-bottom: 3.5rem;
+  margin-top: -1rem;
+  background-image: linear-gradient(45deg,#3addf7, #009CB3 20%, #213341 80%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .about__work__quote {
@@ -123,8 +203,13 @@ font-weight: 400;
 
 .work__image {
   position: relative;
-  left: 73rem;
-  bottom: 51rem;
+  left: 61rem;
+  bottom: 45rem;
+}
+
+.wrapper__experience {
+  padding-left: 4rem;
+  padding-bottom: 0rem;
 }
 
 .wrapper__experience h4 {
@@ -133,7 +218,18 @@ font-weight: 400;
 }
 
 .wrapper__experience h2 {
-  letter-spacing: 0rem;
+  color: #009CB3;
+  position: relative;
+  font-size: 10vw;
+  margin-left: 6vw;
+  margin-top: 2rem;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+  margin-top: -1rem;
+  background-image: linear-gradient(45deg,#3addf7, #009CB3 20%, #213341);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .experience__text {
@@ -153,6 +249,12 @@ font-weight: 400;
   bottom: 43rem;
 }
 
+.about__experience__quote {
+  font-weight: 300;
+  font-size: 2vw;
+  font-style: italic;
+}
+
 .about__experience__paragraph {
   margin-top: 3rem;
 }
@@ -160,6 +262,10 @@ font-weight: 400;
 .experience__list {
   margin-top: 4rem;
   padding-top: 2rem;
+  margin-left: 5rem;
+  display: flex;
+  text-indent: 5rem;
+  
 }
 
 .experience__info {
@@ -171,24 +277,60 @@ font-weight: 400;
 }
 
 .experience__info h4 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .title {
   color: #009CB3;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 3vh;
+  font-size: 4vh;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .company__name {
-  font-size: 2vh;
+  font-size: 2.5vh;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
 .place {
-  font-size: 1.5vh;
+  font-size: 2vh;
+  margin-left: 5rem;
+  font-weight: 100;
+}
+
+.wrapper__clients {
+  position: relative;
+  bottom: 40rem;
+  padding-left: 4rem;
+}
+
+.clients__about h2 {
+  color: #009CB3;
+  position: relative;
+  font-size: 10vw;
+  margin-left: 6vw;
+  letter-spacing: 0.5rem;
+  margin-top: -1rem;
+  font-weight: 700;
+  margin-bottom: 3.5rem;
+  background-image: linear-gradient(45deg,#3addf7, #009CB3 20%, #213341);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.clients__about h4 {
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.clients__about h3 {
+  font-size: 3vw;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-left: 7rem;
+  margin-top: -3rem;
 }
