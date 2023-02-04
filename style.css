@@ -55,6 +55,7 @@ padding-right: 3rem;
   background-repeat: no-repeat;
   background-position: 40% 0%;
   transition: background-size .7s, background-position .5s ease-in-out;
+  cursor: pointer;
   }
   .navigation__item1:hover {
     background-size: 100% 100%;
@@ -72,6 +73,7 @@ padding-right: 3rem;
     background-repeat: no-repeat;
     background-position: 100% 0%;
     transition: background-size .7s, background-position .5s ease-in-out;
+    cursor: pointer;
     }
 
   .navigation__item2:hover {
@@ -90,6 +92,7 @@ padding-right: 3rem;
       background-repeat: no-repeat;
       background-position: 100% 0%;
       transition: background-size .7s, background-position .5s ease-in-out;
+      cursor: pointer;
       }
   
       .navigation__item3:hover {
@@ -107,6 +110,7 @@ padding-right: 3rem;
         background-repeat: no-repeat;
         background-position: 100% 0%;
         transition: background-size .7s, background-position .5s ease-in-out;
+        cursor: pointer;
         }
     
         .navigation__item4:hover {
@@ -418,4 +422,21 @@ margin-top: -26rem;
   background-size: 100% 100%;
 background-position: 0% 100%;
 transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+.wrapper__footer {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background: #213341;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.footer__info p {
+  font-size: 1.2vw;
+  color: #009CB3;
+  text-align: center;
+  font-weight: 600;
+  
 }
