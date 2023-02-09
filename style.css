@@ -11,6 +11,11 @@ body {
   color: var(--primary-color-darkblue);
 }
 
+a {
+  text-decoration: none;
+  color: #1b1a1a;
+}
+
 .header__main {
     display: flex;
     justify-content: space-between;
@@ -43,7 +48,7 @@ body {
 }
 
 .navigation__item {
-padding-right: 3rem;
+  padding-right: 3rem;
 }
 .navigation__item1 {
   padding-right: 1rem;
@@ -58,7 +63,7 @@ padding-right: 3rem;
   cursor: pointer;
   }
   .navigation__item1:hover {
-    background-size: 100% 100%;
+  background-size: 100% 100%;
   background-position: 0% 100%;
   transition: background-position .7s, background-size .5s ease-in-out;
   }
@@ -140,29 +145,17 @@ padding-right: 3rem;
   padding-bottom: 5rem;
 }
 
-.hero__text h2 {
-  text-align: left;
-  font-size: 2vw;
-  font-weight: 300;
-}
-
 .quote__text {
   font-style: italic;
   font-weight: 300;
-  font-size: 1.8vh;
+  font-size: 2.5rem;
+  text-align: left;
 }
 
 .accent {
   color: var(--secondary-color-lightblue);
 }
 
-@media only screen and (max-width: 390px) {
-  .hero__text,
-  h1 {
-    font-size: 1rem;
-    padding-left: .5rem;
-  }
-}
 .hero-quote {
   color: #1b1a1a;
   font-size: 40px;
@@ -437,6 +430,110 @@ transition: background-position .7s, background-size .5s ease-in-out;
   font-size: 1.2vw;
   color: #009CB3;
   text-align: center;
-  font-weight: 600;
-  
+  font-weight: 600; 
+}
+
+@media only screen and (max-width: 600px) {
+  .header__elements-name {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .header__main {
+    display: block;
+  }
+  .navigation__item1 {
+    padding-left: 0rem;
+  }
+  .header__elements {
+    left: 2.5rem;
+  }
+  .hero {
+    display: block;
+    padding: 0;
+  }
+  .hero__image {
+    width: 95%;
+    margin-top: .5rem;
+  }
+  .hero__text {
+    padding-left: 0;
+    font-size: 1.3rem;
+    padding-bottom: 0;
+  }
+  .quote__text {
+    font-size: 1.5rem;
+  }
+  .wrapper__work {
+    padding: 0;
+    padding-top: 2rem;
+  }
+  .about__work h4 {
+    font-size: 0.8rem;
+  }
+  .about__work h2 {
+    margin-bottom: 2rem;
+  }
+  .about__work__quote {
+    font-size: 1.3rem;
+  }
+  .about__work__paragraph {
+    font-size: 1rem;
+  }
+  .wrapper__experience {
+    padding-left: 3rem;
+  }
+  .wrapper__experience h4 {
+    font-size: 0.8rem;
+  }
+  .about__experience__paragraph {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .about__experience__quote {
+    font-size: 1.3rem;
+  }
+  .experience__list {
+    margin-left: -5rem;
+    margin-top: 2rem;
+    display: block;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .company__name {
+    font-size: 1.2rem;
+  }
+  .wrapper__clients {
+    padding-left: 3rem;
+  }
+  .clients__about h3 {
+    margin-left: 2rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .wrapper__clients h4 {
+    font-size: 0.8rem;
+  }
+  .clients__list {
+    margin-left: 1.2rem;
+  }
+  .clients__image {
+    width: 80%;
+  }
+  .wrapper__contact {
+    margin-left: 3rem;
+  }
+  .contact__text {
+    margin-left: 2rem;
+    font-size: 1rem;
+  }
+  .contact__links {
+    font-size: 1.3rem;
+    margin-left: 4rem;
+    margin-top: 1.6rem;
+    margin-bottom: 2.5rem;
+  }
+  .contact__about h2 {
+    margin-bottom: 2rem;
+  }
 }
