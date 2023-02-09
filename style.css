@@ -478,9 +478,15 @@ transition: background-position .7s, background-size .5s ease-in-out;
   }
   .about__work__paragraph {
     font-size: 1rem;
+    width: 50%;
   }
   .wrapper__experience {
     padding-left: 3rem;
+  }
+  .work__image {
+    left: 16rem;
+    margin-bottom: -44rem;
+    width: 45%;
   }
   .wrapper__experience h4 {
     font-size: 0.8rem;
@@ -523,9 +529,10 @@ transition: background-position .7s, background-size .5s ease-in-out;
   .wrapper__contact {
     margin-left: 3rem;
   }
-  .contact__text {
-    margin-left: 2rem;
+  .contact__text p {
     font-size: 1rem;
+    margin-left: -7rem;
+    width: 84%;
   }
   .contact__links {
     font-size: 1.3rem;
@@ -535,5 +542,8 @@ transition: background-position .7s, background-size .5s ease-in-out;
   }
   .contact__about h2 {
     margin-bottom: 2rem;
+  }
+  .phone__image {
+    margin-left: 20rem;
   }
 }
