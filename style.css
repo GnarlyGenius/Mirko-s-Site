@@ -445,7 +445,7 @@ transition: background-position .7s, background-size .5s ease-in-out;
     display: block;
   }
   .navigation {
-    padding-left: 1.3rem;
+    padding-left: 1rem;
     font-size: 0.9rem;
     font-weight: 500;
   }
