@@ -537,7 +537,7 @@ transition: background-position .7s, background-size .5s ease-in-out;
   .wrapper__experience h4 {
     margin-top: 3.5rem;
     font-size: 1rem;
-    margin-bottom: -0.5rem;
+    margin-bottom: 1rem;
   }
   .title {
     font-size: 1.5rem;
@@ -552,12 +552,12 @@ transition: background-position .7s, background-size .5s ease-in-out;
     padding-left: 0.5rem;
   }
   .clients__about h3 {
-    margin-left: 2rem;
+    margin-left: 3rem;
     font-size: 1.5rem;
     line-height: 2rem;
   }
   .wrapper__clients h4 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-left: 1.5rem;
   }
   .clients__list {
@@ -593,6 +593,6 @@ transition: background-position .7s, background-size .5s ease-in-out;
     font-size: 0.7rem;
   }
   .wrapper__footer {
-    width: 87%;
+    width: 86%;
   }
 }
