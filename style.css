@@ -552,8 +552,8 @@ transition: background-position .7s, background-size .5s ease-in-out;
     padding-left: 0.5rem;
   }
   .clients__about h3 {
-    margin-left: 2rem;
-    font-size: 1.5rem;
+    margin-left: 3rem;
+    font-size: 1.4rem;
     line-height: 2rem;
   }
   .wrapper__clients h4 {
