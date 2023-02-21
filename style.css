@@ -445,8 +445,8 @@ transition: background-position .7s, background-size .5s ease-in-out;
     display: block;
   }
   .navigation {
-    padding-left: 0.5rem;
-    font-size: 1rem;
+    padding-left: 1.3rem;
+    font-size: 0.9rem;
     font-weight: 500;
   }
   .navigation__item1 {
@@ -458,9 +458,12 @@ transition: background-position .7s, background-size .5s ease-in-out;
   .navigation__item3 {
     padding-right: 0rem;
   }
+  .navigation__item4 {
+    padding-right: 0rem;
+  }
   .header__elements {
     left: 1.3rem;
-    margin-right: 2rem;
+    margin-right: 4rem;
   }
   .hero {
     display: block;
@@ -507,7 +510,7 @@ transition: background-position .7s, background-size .5s ease-in-out;
   .work__image {
     left: 0rem;
     margin-bottom: -70rem;
-    width: 95%;
+    width: 85%;
     display: inline;
   }
   .wrapper__experience h4 {
@@ -531,14 +534,20 @@ transition: background-position .7s, background-size .5s ease-in-out;
     display: block;
     text-align: center;
   }
+  .wrapper__experience h4 {
+    margin-top: 3.5rem;
+    font-size: 1rem;
+    margin-bottom: -0.5rem;
+  }
   .title {
     font-size: 1.5rem;
     padding: -1.5rem;
+    margin-bottom: 1rem;
   }
   .company__name {
     font-size: 1.1rem;
+    margin-bottom: 0rem;
   }
-
   .wrapper__clients {
     padding-left: 0.5rem;
   }
@@ -578,12 +587,12 @@ transition: background-position .7s, background-size .5s ease-in-out;
     margin-bottom: 2rem;
   }
   .phone__image {
-    margin-left: 14rem;
+    margin-left: 12rem;
   }
   .footer__info p {
     font-size: 0.7rem;
   }
   .wrapper__footer {
-    width: 89%;
+    width: 87%;
   }
 }
