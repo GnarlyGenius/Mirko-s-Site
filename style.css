@@ -438,26 +438,40 @@ transition: background-position .7s, background-size .5s ease-in-out;
     font-size: 1.5rem;
     font-weight: 400;
   }
+  body{
+    padding: 0.3rem;
+  }
   .header__main {
     display: block;
   }
+  .navigation {
+    padding-left: 1.5rem;
+    font-size: 0.5rem;
+    font-weight: 400;
+  }
   .navigation__item1 {
-    padding-left: 0rem;
+    padding-right: 0;
+  }
+  .navigation__item2 {
+    padding-right: 0;
+  }
+  .navigation__item3 {
+    padding-right: 0;
   }
   .header__elements {
-    left: 2.5rem;
+    left: 2rem;
   }
   .hero {
     display: block;
     padding: 0;
   }
   .hero__image {
-    width: 95%;
-    margin-top: .5rem;
+    width: 83%;
+    margin-top: 1.5rem;
   }
   .hero__text {
     padding-left: 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding-bottom: 0;
   }
   .quote__text {
@@ -465,7 +479,7 @@ transition: background-position .7s, background-size .5s ease-in-out;
   }
   .wrapper__work {
     padding: 0;
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
   .about__work h4 {
     font-size: 0.8rem;
@@ -545,5 +559,8 @@ transition: background-position .7s, background-size .5s ease-in-out;
   }
   .phone__image {
     margin-left: 20rem;
+  }
+  .footer__info {
+    font-size: 2rem;
   }
 }
