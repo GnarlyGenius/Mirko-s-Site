@@ -447,7 +447,7 @@ transition: background-position .7s, background-size .5s ease-in-out;
   .navigation {
     padding-left: 1.5rem;
     font-size: 0.5rem;
-    font-weight: 400;
+    font-weight: 500;
   }
   .navigation__item1 {
     padding-right: 0;
@@ -478,7 +478,7 @@ transition: background-position .7s, background-size .5s ease-in-out;
     font-size: 1.5rem;
   }
   .wrapper__work {
-    padding: 0;
+    padding: 0rem;
     padding-top: 1rem;
   }
   .about__work h4 {
@@ -492,37 +492,48 @@ transition: background-position .7s, background-size .5s ease-in-out;
   }
   .about__work__paragraph {
     font-size: 1rem;
-    width: 50%;
+    width: 80%;
   }
   .wrapper__experience {
     padding-left: 3rem;
+    margin-top: 25rem;
+    padding-right: 0.5rem;
   }
   .work__image {
-    left: 16rem;
-    margin-bottom: -44rem;
-    width: 45%;
+    left: 0rem;
+    margin-bottom: -70rem;
+    width: 85%;
+    display: inline;
   }
   .wrapper__experience h4 {
     font-size: 0.8rem;
+    margin-bottom: 1rem;
   }
   .about__experience__paragraph {
     margin-top: 1rem;
     font-size: 1rem;
+    margin-right: 0.6rem;
+  }
+  .about__experience h2{
+    margin-bottom: 2rem;
   }
   .about__experience__quote {
     font-size: 1.3rem;
   }
   .experience__list {
     margin-left: -5rem;
-    margin-top: 2rem;
+    margin-top: -1rem;
     display: block;
+    text-align: center;
   }
   .title {
     font-size: 1.5rem;
+    padding: -1rem;
   }
   .company__name {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
+
   .wrapper__clients {
     padding-left: 3rem;
   }
@@ -538,7 +549,7 @@ transition: background-position .7s, background-size .5s ease-in-out;
     margin-left: 1.2rem;
   }
   .clients__image {
-    width: 80%;
+    width: 90%;
   }
   .wrapper__contact {
     margin-left: 3rem;
@@ -552,15 +563,18 @@ transition: background-position .7s, background-size .5s ease-in-out;
     font-size: 1.3rem;
     margin-left: 4rem;
     margin-top: 1.6rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem; 
+  }
+  .link2 {
+    margin-left: -0.5rem;
   }
   .contact__about h2 {
     margin-bottom: 2rem;
   }
   .phone__image {
-    margin-left: 20rem;
+    margin-left: 14rem;
   }
-  .footer__info {
-    font-size: 2rem;
+  .footer__info p {
+    font-size: 0.7rem;
   }
 }
